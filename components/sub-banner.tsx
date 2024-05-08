@@ -32,7 +32,7 @@ const SubBanner: NextPage = () => {
     };
   }, []);
   return (
-    <div className="w-[1920px] max-w-full h-[220px] flex flex-col items-center justify-end bg-[url('/subbanner@3x.png')] bg-cover bg-no-repeat bg-[top] mix-blend-normal text-center text-29xl text-bg-colors-white font-headings-headling-2">
+    <div className="self-stretch max-w-full h-[220px] flex flex-col items-center justify-end bg-[url('/subbanner@3x.png')] bg-cover bg-no-repeat bg-[top] mix-blend-normal text-center text-29xl text-bg-colors-white font-headings-headling-2">
       <div className="self-stretch flex-1 flex flex-col items-center justify-center py-0 px-5">
         <div className="self-stretch flex flex-col items-center justify-center gap-[4px]">
           <h1

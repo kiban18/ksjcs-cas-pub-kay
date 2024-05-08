@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 
 const Header: NextPage = () => {
   return (
-    <div className="w-[1920px] bg-text-colors-dark-gray max-w-full h-[124px] flex flex-row items-center justify-center p-2.5 box-border text-left text-17xl text-text-colors-amber font-headings-headling-2">
+    <div className="self-stretch bg-text-colors-dark-gray max-w-full h-[124px] flex flex-row items-center justify-center p-2.5 box-border text-left text-17xl text-text-colors-amber font-headings-headling-2">
       <div className="w-[1300px] flex flex-row flex-wrap items-center justify-between max-w-[1300px]">
         <b className="w-[200px] relative text-29xl leading-[48px] flex items-center shrink-0 md:text-17xl">
           LOGO
